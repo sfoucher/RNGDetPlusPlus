@@ -51,7 +51,7 @@ class Agent(FrozenClass):
         
         self.load_data_and_initialization(image_name)
         self.__setup_seed(20)
-        self._freeze()
+        #self._freeze()
 
     def __setup_seed(self,seed):
         '''
